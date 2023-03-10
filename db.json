@@ -1,0 +1,19 @@
+{
+  "transactions": [
+    {
+      "nome": "Salario",
+      "valor": 4500,
+      "id": 1
+    },
+    {
+      "nome": "Aluguel",
+      "valor": -550,
+      "id": 2
+    },
+    {
+      "nome": "Feira",
+      "valor": -150,
+      "id": 3
+    }
+  ]
+}

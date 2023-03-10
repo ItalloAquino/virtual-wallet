@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle Financeiro</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Controle Financeiro</h1>
+      <h2 id="saldo-valor">Saldo: R$ 0,00</h2>
+    </header>
+    <main>
+      <h2>Transações</h2>
+      <ul id="lista-transacoes">
+        <!-- Aqui serão inseridas as transações do backend -->
+      </ul>
+      <form id="form-transacao">
+        <input type="text" name="nome" placeholder="Nome da transação">
+        <input type="number" step="0.01" name="valor" placeholder="Valor da transação">
+        <button type="submit">Adicionar</button>
+      </form>
+    </main>
+    <script src="App.js"></script>
+  </body>
+</html>

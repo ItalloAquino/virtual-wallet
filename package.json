@@ -1,0 +1,16 @@
+{
+  "name": "final-task---personal-finance-web-aplication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "json-server": "json-server --watch db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.2",
+    "uuid": "^9.0.0"
+  }
+}

@@ -1,0 +1,145 @@
+/* Fonte */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 1.8rem 0 1.8rem;
+}
+
+/* Estilo do header */
+header {
+  background-color: #0077b6;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+#saldo-valor {
+  font-size: 2rem;
+  color: #fff;
+  background-color: #023e8a;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+
+/* Estilo do main */
+main {
+  margin: 30px 0;
+}
+
+main h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+/* Estilo da lista de transações */
+#lista-transacoes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#lista-transacoes li {
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+#lista-transacoes li span {
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+#lista-transacoes li:hover {
+  transform: scale(1.03);
+}
+
+#lista-transacoes .entrada {
+  color: #2a9d8f;
+}
+
+#lista-transacoes .saida {
+  color: #e63946;
+}
+
+#lista-transacoes span {
+  font-weight: bold;
+}
+
+/* Estilo do formulário */
+#form-transacao {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+#form-transacao input[type="text"],
+#form-transacao input[type="number"] {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#form-transacao input[type="text"]::placeholder,
+#form-transacao input[type="number"]::placeholder {
+  color: #999;
+}
+
+#form-transacao button {
+  background-color: #0077b6;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  padding: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#form-transacao button:hover {
+  background-color: #023e8a;
+}
+
+/* Estilo dos botões de editar e excluir */
+#lista-transacoes li button {
+  font-size: 0.8rem;
+  padding: 0.2rem 0.5rem;
+  margin-left: 0.5rem;
+  border: none;
+  border-radius: 0.2rem;
+  color: #fff;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+#lista-transacoes li button.btn-editar {
+  background-color: #1E90FF;
+}
+#lista-transacoes li button.btn-editar:hover {
+  opacity: 0.8;
+}
+#lista-transacoes li button.btn-excluir {
+  background-color: #DC143C;
+}
+#lista-transacoes li button.btn-excluir:hover {
+  opacity: 0.8;
+}
